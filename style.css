@@ -1,0 +1,181 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    margin: 0 5%;
+    width: 90%;
+    display: flex;
+}
+
+.banner-left {
+    width: 40%;
+    margin-top: 100px;
+}
+
+.banner-left h1 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.banner-left span {
+    color: rgba(255, 68, 0, 0.712);
+}
+
+.banner-left p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.link-btn {
+    text-decoration: none;
+    display: inline-block;
+    color: blanchedalmond;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.726), rgb(255, 174, 0));
+}
+
+.banner-right {
+    width: 60%;
+}
+
+/* About Me */
+.about-me {
+    margin-top: 100px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.about-left {
+    padding: 80px 50px;
+    width: 50%;
+}
+
+.about-left img {
+    display: block;
+    width: 200px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.about-right {
+    width: 50%;
+    padding: 100px;
+}
+
+.about-right h1 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.about-right p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+/* recipies */
+.recipies {
+    background-color: whitesmoke;
+}
+
+.recipies h1 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.753);
+    text-align: center;
+    font-weight: bold;
+}
+
+.recipies-des {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+    text-align: center;
+    margin: 0 25%;
+}
+
+.recipies-box {
+    margin: 50px 5%;
+    display: flex;
+}
+
+.box-left {
+    width: 50%;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box-left img {
+    width: 100%;
+    height: 300px;
+}
+
+.box-left h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.box-left p {
+    text-align: left;
+}
+
+.box-right {
+    width: 50%;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box-right img {
+    width: 100%;
+    height: 300px;
+}
+
+.box-right h1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+/* Follower */
+.follower {
+    margin: 6%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.follower-box {
+    width: 33%;
+    margin: 0 100px;
+}
+
+.follower-box h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+footer h1 {
+    color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+}
+
+footer span {
+    color: orangered;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: 100;
+}
